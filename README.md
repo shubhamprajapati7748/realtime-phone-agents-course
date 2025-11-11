@@ -9,3 +9,168 @@
     <img src="static/diagrams/system_architecture.png" alt="Architecture" width="600">
 </p>
 
+
+## Table of Contents
+
+- [Table of Contents](#table-of-contents)
+- [Course Overview](#course-overview)
+- [Who is this course for?](#who-is-this-course-for)
+- [Course Breakdown: Week by Week](#course-breakdown-week-by-week)
+- [The tech stack](#the-tech-stack)
+- [Contributors](#contributors)
+- [License](#license)
+
+
+## 📘 Course Overview
+
+This isn't your typical plug-and-play tutorial where you spin up a demo in five minutes and call it a day. 
+
+Instead, we're building a **real estate company**, but with a twist … the employees will be **realtime voice agents**!
+
+By the end of this course, you'll have a system capable of:
+
+* ☎️ Receive inbound calls with Twilio
+* 📞 Make outbound calls through Twilio
+* 🏠 Search live property data using Superlinked
+* ⚡ Run realtime conversations powered by FastRTC
+* 🗣️ Transcribe speech instantly with Moonshine + Fast Whisper
+* 🎙️ Generate lifelike voices using Kokoro + Orpheus 3B
+* 🚀 Deploy open-source models on Runpod for GPU acceleration
+
+
+Excited? Let's get started! 
+
+---
+
+<table style="border-collapse: collapse; border: none;">
+  <tr style="border: none;">
+    <td width="20%" style="border: none;">
+      <a href="https://theneuralmaze.substack.com/" aria-label="The Neural Maze">
+        <img src="https://avatars.githubusercontent.com/u/151655127?s=400&u=2fff53e8c195ac155e5c8ee65c6ba683a72e655f&v=4" alt="The Neural Maze Logo" width="150"/>
+      </a>
+    </td>
+    <td width="80%" style="border: none;">
+      <div>
+        <h2>📬 Stay Updated</h2>
+        <p><b><a href="https://theneuralmaze.substack.com/">Join The Neural Maze</a></b> and learn to build AI Systems that actually work, from principles to production. Every Wednesday, directly to your inbox. Don't miss out!</p>
+      </div>
+    </td>
+  </tr>
+</table>
+
+<p align="center">
+  <a href="https://theneuralmaze.substack.com/">
+    <img src="https://img.shields.io/static/v1?label&logo=substack&message=Subscribe%20Now&style=for-the-badge&color=black&scale=2" alt="Subscribe Now" height="40">
+  </a>
+</p>
+
+<table style="border-collapse: collapse; border: none;">
+  <tr style="border: none;">
+    <td width="20%" style="border: none;">
+      <a href="https://www.youtube.com/@jesuscopado-en" aria-label="Jesus Copado YouTube Channel">
+        <img src="static/jesus_youtube_channel.png" alt="Jesus Copado YouTube Channel" width="150"/>
+      </a>
+    </td>
+    <td width="80%" style="border: none;">
+      <div>
+        <h2>🎥 Watch More Content</h2>
+        <p><b><a href="https://www.youtube.com/@jesuscopado-en">Join Jesús Copado on YouTube</a></b> to explore how to build real AI projects—from voice agents to creative tools. Weekly videos with code, demos, and ideas that push what's possible with AI. Don't miss the next drop!</p>
+      </div>
+    </td>
+  </tr>
+</table>
+
+<p align="center">
+  <a href="https://www.youtube.com/@jesuscopado-en">
+    <img src="https://img.shields.io/static/v1?label&logo=youtube&message=Subscribe%20Now&style=for-the-badge&color=FF0000&scale=2" alt="Subscribe Now" height="40">
+  </a>
+</p>
+
+---
+
+## 👩‍💻 Who is this course for?
+
+This course is for Software Engineers, ML Engineers, and AI Engineers who want to level up by building complex end-to-end apps. It's not just a basic "Hello World" tutorial—it's a deep dive into making **production-ready voice agents**.
+
+
+## 🗓️ Course Breakdown: Week by Week
+
+Each week, you'll unlock **a new chapter of the journey**. You'll get:
+
+* 🧾 A Substack article that walks through the concepts and code in detail
+* 💻 A new batch of code pushed directly to this repo
+* 🎥 A Live Session where we explore everything together
+
+Here’s what the upcoming weeks look like 👇
+
+
+| Lesson Number | Title | Article | Live Session |
+|---------------|----------------|--------------|-------------|
+| <div align="center">0</div> | Project overview and architecture | November 12 | November 16|
+| <div align="center">1</div> | Building Voice Agents with FastRTC | November 19 | November 23 |
+| <div align="center">2</div> | Superlinked for Realtime Property Search | November 26 | November 30 |
+| <div align="center">3</div> | Improving STT and TTS Systems | December 3 | December 7 |
+| <div align="center">4</div> | Deployment, monitoring and Twilio Integration | December 10 | December 14
+
+---
+
+## The tech stack
+
+<table>
+  <tr>
+    <th>Technology</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td><img src="static/fastrtc_logo.png" width="100" alt="FastRTC Logo"/></td>
+    <td>The python library for real-time communication.
+</td>
+  </tr>
+  <tr>
+    <td><img src="static/superlinked_logo.png" width="100" alt="Superlinked Logo"/></td>
+    <td>SSuperlinked is a Python framework for AI Engineers building high-performance search & recommendation applications that combine structured and unstructured data.
+
+</td>
+  </tr>
+  <tr>
+    <td><img src="static/runpod_logo.png" width="100" alt="Runpod Logo"/></td>
+    <td>The end-to-end AI cloud that simplifies building and deploying models.</td>
+  </tr>
+  <tr>
+    <td><img src="static/opik_logo.svg" width="100" alt="Opik Logo"/></td>
+    <td>Debug, evaluate, and monitor your LLM applications, RAG systems, and agentic workflows with comprehensive tracing, automated evaluations, and production-ready dashboards.</td>
+  </tr>
+  <tr>
+    <td><img src="static/twilio_logo.png" width="100" alt="Twilio Logo"/></td>
+    <td>Twilio is a cloud communications platform that enables developers to build, manage, and automate voice, text, video, and other communication services through APIs.</td>
+  </tr>
+</table>
+
+
+## Contributors
+
+<table>
+  <tr>
+    <td align="center"><img src="https://github.com/MichaelisTrofficus.png" width="100" style="border-radius:50%;"/></td>
+    <td>
+      <strong>Miguel Otero Pedrido | Senior ML / AI Engineer </strong><br />
+      <i>Founder of The Neural Maze. Rick and Morty fan.</i><br /><br />
+      <a href="https://www.linkedin.com/in/migueloteropedrido/">LinkedIn</a><br />
+      <a href="https://www.youtube.com/@TheNeuralMaze">YouTube</a><br />
+      <a href="https://theneuralmaze.substack.com/">The Neural Maze Newsletter</a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://github.com/jesuscopado.png" width="100" style="border-radius:50%;"/></td>
+    <td>
+      <strong>Jesús Copado | Senior ML / AI Engineer </strong><br />
+      <i>Equal parts cinema fan and AI enthusiast.</i><br /><br />
+      <a href="https://www.youtube.com/@jesuscopado-en">YouTube</a><br />
+      <a href="https://www.linkedin.com/in/copadojesus/">LinkedIn</a><br />
+    </td>
+  </tr>
+</table>
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
